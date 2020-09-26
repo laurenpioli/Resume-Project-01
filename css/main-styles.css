@@ -1,0 +1,62 @@
+/* -------- Main Page Styles -------- */
+
+.header-container {
+    background-color: orange;
+
+}
+
+.col-1 {
+    border: 5px solid yellow;
+
+}
+
+.col-2 {
+    border: 5px solid green;
+
+}
+
+.col-3 {
+    border: 5px solid white;
+
+}
+
+.col-4 {
+    border: 5px solid black;
+
+}
+
+.col-5 {
+    border: 5px solid purple;
+
+}
+
+
+.body-container {
+    background-color: blue;
+
+}
+
+
+.sub-header {
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+
+
+.main-text {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+
+
+
+
+/* -------- Footer -------- */
+
+footer {
+    background-color: red;
+
+}

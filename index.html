@@ -6,16 +6,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Title</title>
-    <link rel="stylesheet" href="css/styles.css" type="text/css">
-    <link rel="normalize" href="css/normalize.css" type="text/css">
+    <link rel="stylesheet" href="css/normalize.css" type="text/css">
+    <link rel="stylesheet" href="css/main-styles.css" type="text/css">
+    <link rel="stylesheet" href="css/responsive.css" type="text/css">
+    
 </head>
 
 <!------- Body ------->
 <body>
-    <h1 class="main-header">Header 1</h1>
-        <p class="main-text">Paragraph one.</p>
-    <h2 class="main-header">Header 2</h2>
-        <p class="main-text">Paragraph two.</p>
+
+    <div class="header-container">
+        <header>
+            <h1 class="main-title col-1">Page Title or Name</h1>
+            <nav class="main-nav col-2">
+                <ul>
+                        <li class="col-2"> <a href="page-two.html">Page 2</a></li>
+                        <li class="col-2"> <a href="page-three.html">Page 3</a></li>
+                        <li class="col-2"> <a href="page-four.html">Page 4</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+
+    <div class="body-container">
+        <h2 class="main-header col-3">This is the Main Heading for the Body</h2>
+            <p class="main-text col-3">Mini opening paragraph or description.</p>
+        <h3 class="sub-header col-4">This is a Sub-heading</h3>
+            <p class="main-text col-4">Text about the sub-heading topic.</p>
+        <h3 class="sub-header col-5">This is another Sub-heading</h3>
+            <p class="main-text col-5">Here comes an un-ordered list.</p>
+            <ul class="list col-6">
+                <li class="item col-7">First thing,</li>
+                <li class="item col-7">Second thing,</li>
+                <li class="item col-7">Third thing.</li>
+            </ul>
+    </div>
 
 
 <!------- Footer ------->
