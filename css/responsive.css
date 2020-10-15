@@ -5,57 +5,49 @@
 
 }
 
-nav a {
-    display: block;
-    text-align: right;
-
-}
-
 
 .header-container {
-    display: inline-block;
-
-}
-
-.col-1 {
-    justify-content: auto;
-
-}
-
-
-.main-nav {
     display: flex;
+    margin-bottom: auto;
+    flex-direction: column;
 
 }
+
+
+
+
+
+/* -------- Flexbox -------- */
+
+.header-container, .main-nav {
+    display: flex;
+    flex-direction: column;
+
+}
+
+
 
 
 /* -------- Media Queries -------- */
 
 
 
-.col-1 {
-    float: left;
 
-}
-
-nav {
-    float: right;
-
-}
 
 
 
 /* -------- Sticky Footer -------- */
 
-body {
+.body-container {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
 
 }
 
-
-.main-footer {
+.footer-container {
     margin-top: auto;
 
 }
+
+
