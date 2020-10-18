@@ -17,6 +17,8 @@
 
 
 
+
+
 /* -------- Flexbox -------- */
 
 .header-container, .main-nav {
@@ -30,7 +32,40 @@
 
 /* -------- Media Queries -------- */
 
+/* --- Mobile Landscape --- */
+@media screen and (orientation: landscape) {
+    .media2, .media4 {
+        width: 50%;
+    }
 
+}
+
+/* --- iPad Normal --- */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .flex-item {
+        width: 25%;
+        display: inline-block;
+
+    }
+
+
+
+
+/* --- Computer --- */
+@media screen and (min-width: 1025px) {
+
+
+    .media3, .media4, .media5, .media6 {
+        width: 50%;
+    }
+
+    .flex-item {
+        width: 25%;
+        display: inline-block;
+
+    }
+
+}
 
 
 
