@@ -1,4 +1,6 @@
-/* -------- Main Page Styles -------- */
+/* ============================
+    Main Page Styles
+=============================== */
 
 .header-container {
     background-color: orange;
@@ -60,7 +62,9 @@ p {
 
 
 
-/* -------- Footer -------- */
+/* ========================
+    Footer
+=========================== */
 
 .footer-container {
     background-color: red;
