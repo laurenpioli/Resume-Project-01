@@ -16,6 +16,16 @@
 }
 
 
+.header-container,
+.body-container {
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+
+
+
 
 
 
@@ -31,6 +41,11 @@
 
 }
 
+.flex-01 {
+    display: flex;
+    flex-direction: column;
+
+}
 
 
 
@@ -44,13 +59,29 @@
         width: 50%;
     }
 
+    .flex-01 {
+        flex-direction: row;
+        justify-content: space-between;
+
+    }
+
 }
 
 /* ------------- iPad Normal ------------- */
 @media screen and (min-width: 768px) and (max-width: 1024px) {
+    .media2, .media4 {
+        width: 50%;
+    }
+    
     .flex-item {
         width: 20%;
         display: inline-block;
+
+    }
+
+    .flex-01 {
+        flex-direction: row;
+        justify-content: space-between;
 
     }
 
@@ -61,7 +92,7 @@
 @media screen and (min-width: 1025px) {
 
 
-    .media3, .media4, .media5, .media6 {
+    .media2, .media4 {
         width: 50%;
     }
 
