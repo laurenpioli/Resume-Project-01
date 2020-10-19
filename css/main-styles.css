@@ -2,8 +2,13 @@
     Main Page Styles
 =============================== */
 
+html {
+    background-color: #618685;
+
+}
+
 .header-container {
-    background-color: orange;
+    background-color: #d5f4e6;
 
 }
 
@@ -12,13 +17,8 @@ header {
 
 }
 
-.main-title {
-    border: 5px solid yellow;
-
-}
-
 .flex-item {
-    border: 5px solid green;
+    background-color: #618685;
 
 }
 
@@ -39,7 +39,7 @@ p {
 
 
 .body-container {
-    background-color: blue;
+    background-color: #80ced6;
 
 }
 
@@ -67,7 +67,7 @@ p {
 =========================== */
 
 .footer-container {
-    background-color: red;
+    background-color: #d5f4e6
 
 }
 
