@@ -15,6 +15,12 @@
 
 }
 
+.flex-item {
+    display: flex;
+    flex-direction: column;
+
+}
+
 
 .header-container,
 .body-container {
@@ -23,10 +29,7 @@
 
 }
 
-.main-nav {
-    padding-bottom: 10px;
 
-}
 
 
 

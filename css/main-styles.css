@@ -22,6 +22,12 @@ header {
 
 }
 
+.main-nav {
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
 h2 {
     border: 5px solid white;
 
