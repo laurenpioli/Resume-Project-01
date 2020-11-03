@@ -19,6 +19,17 @@ header {
 
 }
 
+li a:link,
+li a:visited {
+    color: white;
+
+}
+
+li a:hover {
+    color: #fefbd8
+
+}
+
 .flex-item {
     background-color: #618685;
 
@@ -37,6 +48,8 @@ h2 {
 
 p {
     border: 5px solid black;
+    margin-left: 15%;
+    margin-right: 15%;
 
 }
 
@@ -45,11 +58,6 @@ p {
 
 }
 
-
-.body-container {
-    background-color: #80ced6;
-
-}
 
 
 .header-container {
@@ -61,6 +69,7 @@ p {
 
 .body-container {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #80ced6;
 
 
 }
@@ -82,4 +91,5 @@ p {
 footer {
     text-align: center;
     padding-bottom: 10px;
+
 }
