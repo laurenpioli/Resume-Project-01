@@ -30,6 +30,18 @@ li a:hover {
 
 }
 
+p a:link,
+p a:visited {
+    color: #618685;
+
+}
+
+p a:hover {
+    color: #fefbd8;
+
+}
+
+
 .flex-item {
     background-color: #618685;
 
@@ -53,7 +65,7 @@ p {
 
 .image {
     border: 5px solid purple;
-
+    size: 25%;
 }
 
 
