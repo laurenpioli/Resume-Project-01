@@ -65,9 +65,20 @@ p {
 
 .image {
     border: 5px solid purple;
-    size: 25%;
+
 }
 
+/* #book {
+    height: 298px;
+    width: 208px;
+
+}
+
+#treehouse {
+    height: 120px;
+    width: 300px;
+
+}           This works on a computer */
 
 
 .header-container {
