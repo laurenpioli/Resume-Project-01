@@ -37,5 +37,15 @@ My project uses flexbox to organize content areas based on mobile or desktop vie
 
 7. JavaScript Feature #2
 My project has two JavaScript functions that perform some form of mathematical operation and displays the result on the page.
+On the JavaScript page, there are two mathematical functions that run using guest input.
+The first one will generate a random number. Click the first button and then enter a number in
+numerical format. If you fail to enter a number or any input, an error will display on the screen.
+If you enter a number in numerical format, a random number will be generated between 1 and your number
+and display on the screen.
+
+The second one will calculate how many weeks you've been alive. First, click the second button on the screen.
+Enter your age in years in numerical format. Then, it asks you to enter in a time period to convert your age into.
+It only works on 'weeks' so please only enter 'weeks'. It will calculate how many weeks you've been alive
+and enter that number on the page. It will also display formatting errors.
 
 ---end
