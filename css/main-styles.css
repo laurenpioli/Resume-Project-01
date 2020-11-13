@@ -19,6 +19,11 @@ header {
 
 }
 
+a:link {
+    text-decoration: none;
+
+}
+
 li a:link,
 li a:visited {
     color: white;
@@ -44,6 +49,8 @@ p a:hover {
 
 .flex-item {
     background-color: #618685;
+    padding-top: 5px;
+    padding-bottom: 5px;
 
 }
 
@@ -54,17 +61,23 @@ p a:hover {
 }
 
 
+li {
+    margin: 10px;
+
+}
+
+
 /* #book {
     height: 298px;
     width: 208px;
 
-}
+}  
 
 #treehouse {
     height: 120px;
     width: 300px;
 
-}           This works on a computer */
+}           This works on a computer  */
 
 
 .header-container {
