@@ -3,7 +3,9 @@
 // Collect input from a guest
 
 function question() {
-    const inputLow = prompt('Please enter any number higher than 1.');
+    const inputLow = document.getElementById('guestinput').value
+    
+    // prompt('Please enter any number higher than 1.');
 
     console.log(inputLow);
 
@@ -22,7 +24,7 @@ function question() {
     if (low) {
         const randomNumber = Math.floor( Math.random() * low ) + 1;
         //  Create a message displaying the random number
-        document.querySelector("#randomanswer").innerHTML = `${randomNumber} is a random number from 1 to your number ${low}`;
+        document.querySelector("#randomanswer").innerHTML = `Answer:  ${randomNumber} is a random number from 1 to your number ${low}.`;
     } else {
         console.log(`Please reload the page and provide a number in numerical format.`);
         document.querySelector("#randomanswer").innerHTML = `Please reload the page and provide a number in numerical format.`;
@@ -47,7 +49,9 @@ const weeksPerYear = 52;
     // Collect input from a guest
 
 function ageCalc() {
-    const inputAge = prompt('Please enter your age in years.');
+    const inputAge = document.getElementById('guestage').value
+    
+    // prompt('Please enter your age in years.');
 
     console.log(inputAge);
 
@@ -61,12 +65,16 @@ function ageCalc() {
     
     console.log( typeof ageYears );
 
-    const recalcAge = prompt("Please enter a period of time you'd like your age recalculated into.")
+    const recalcAge = document.getElementById('period').value
+    
+    // prompt("Please enter a period of time you'd like your age recalculated into.")
     
     if (recalcAge === 'weeks' ) {
         let weeksAlive = ( ageYears * weeksPerYear) ;
         console.log(weeksAlive);
-        document.querySelector("#agecalculation").innerHTML = `You have been alive for ${weeksAlive} weeks.`;
+        document.querySelector("#agecalculation").innerHTML = `Answer:  You have been alive for ${weeksAlive} weeks.`;
+        // const reactionGif = "<img src=''>";
+        // document.querySelector("#gif-reaction").innerHTML = reactionGif;
 
     // } else if ( recalcAge === 'minutes' ) {
     //     let ageAnswer = ( ageYears * minutesPerHour * hoursPerDay * daysPerWeek * weeksPerYear );
