@@ -53,20 +53,6 @@ p a:hover {
     padding-right: 10px;
 }
 
-h2 {
-    border: 5px solid white;
-
-}
-
-p {
-    border: 5px solid black;
-
-}
-
-.image {
-    border: 5px solid purple;
-
-}
 
 /* #book {
     height: 298px;
@@ -95,6 +81,12 @@ p {
 
 }
 
+.content {
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-bottom: 10px;
+
+}
 
 
 
