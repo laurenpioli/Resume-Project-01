@@ -36,7 +36,7 @@ This is my README.
 My project has the first feature:  a navigation menu that expands and collapses properly at desktop and mobile sizes. </br>
 It switches from vertical to horizontal.
 
-Look in:  responsive.css. Begin at line 92 with the .flex-item class.
+Look in:  responsive.css. Begin at line 92 with the .flex-item class. </br>
 Referenced in:  index.html. Begin at line 23 with the navigation list items.
 
 6. CSS Feature #2 </br>
@@ -56,10 +56,10 @@ Enter your age in years in numerical format. Then, it asks you to enter in a tim
 It only works on 'weeks' so far. It will calculate how many weeks you've been alive
 and enter that number on the page in HTML. It will also display formatting errors.
 
-Look in:  javascript.js. Begin at line 1 for the Random Number Generator.
+Look in:  javascript.js. Begin at line 1 for the Random Number Generator. </br>
 Referenced in:  javascript-page.html. Begin at line 39 with the description of the first mathematical function.
 
-Look in:  javascript.js. Begin at line 39 for the Age Recalculator.
+Look in:  javascript.js. Begin at line 39 for the Age Recalculator.  </br>
 Referenced in:  javascript-page.html. Begin at line 56 with the description of the second mathematical function.
 
 ---end
