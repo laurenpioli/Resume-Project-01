@@ -57,5 +57,7 @@ Referenced in:  javascript-page.html. Begin at line 39 with the description of t
 Look in:  javascript.js. Begin at line 36 for the Age Recalculator.  </br>
 Referenced in:  javascript-page.html. Begin at line 56 with the description of the second mathematical function.
 
+I'm not sure what the .yml document is. I think it appeared after I created a github page for this website.
+
 
 ---end
