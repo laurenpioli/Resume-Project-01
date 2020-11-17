@@ -8,7 +8,7 @@ There is a navigation with links to each language's own page.
 I used visual studio code to write my code. I used git bash to import my files into 
 GitHub.
 
-To view, please pull the repository to your workstation and view the index.html in your 
+To view, please clone the repository to your workstation and view the index.html in your 
 web browser.
 
 The Code Louisville requirements that I believe I have satisfied are:
