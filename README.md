@@ -12,7 +12,7 @@ To view, please clone the repository to your workstation and view the index.html
 web browser.
 
 The Code Louisville requirements that I believe I have satisfied are:
-1. The project is build mobile first.
+1. The project is built mobile first. </br>
 In my responsive.css file, it should begin to show in one column.
 Then, once a screen flips to landscape, some items show side-by-side.
 Once the screen gets a bit larger, it adjusts once again to have the navigatoin links
