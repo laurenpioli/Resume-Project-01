@@ -19,29 +19,30 @@ Then there are a few more adjustments once the screen gets to a likely desktop s
                 
 Look in:  responsive.css. Begin at line 1 with Main Page Formatting.
 
-2. The project has at least 2 media queries.
+2. The project has at least 2 media queries. </br>
 I have 3 media queries.
+
 Look in:  responsive.css. Begin at line 68 with Media Queries.
 
-3. Project is uploaded to GitHub with at least 5 separate commits.
+3. Project is uploaded to GitHub with at least 5 separate commits. </br>
 I have at this time 39 commits to GitHub.
 
-4. Project includes a README.
+4. Project includes a README. </br>
 This is my README.
 
-5. CSS Feature #1
+5. CSS Feature #1  </br>
 My project has the first feature:  a navigation menu that expands and collapses properly at desktop and mobile sizes. </br>
-It switches from vertical to horizontal.
+It switches from vertical to horizontal as the viewport increases in size.
 
 Look in:  responsive.css. Begin at line 92 with the .flex-item class. </br>
 Referenced in:  index.html. Begin at line 23 with the navigation list items.
 
-6. CSS Feature #2
+6. CSS Feature #2 </br>
 My project uses flexbox to organize content areas based on mobile or desktop views.
 
 Look in:  responsive.css. Begin at line 49 with Flexbox to see where my flex containers are defined.
 
-7. JavaScript Feature #1
+7. JavaScript Feature #1 </br>
 My project has two JavaScript functions that perform some form of mathematical operation and displays the result on the page. </br>
 On the JavaScript page, there are two mathematical functions that run using guest input. </br>
 
@@ -53,7 +54,7 @@ It only works on 'weeks' so far. It will calculate how many weeks you've been al
 Look in:  javascript.js. Begin at line 1 for the Random Number Generator. </br>
 Referenced in:  javascript-page.html. Begin at line 39 with the description of the first mathematical function.
 
-Look in:  javascript.js. Begin at line 39 for the Age Recalculator.  </br>
+Look in:  javascript.js. Begin at line 36 for the Age Recalculator.  </br>
 Referenced in:  javascript-page.html. Begin at line 56 with the description of the second mathematical function.
 
 

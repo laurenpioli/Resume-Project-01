@@ -40,12 +40,12 @@
 
                     <p>Here, I'll demonstrate how JavaScript can perform mathematical functions based on input.
                     There is an easy way to generate random numbers with JavaScript functions.
-                    To make it more interesting, I'll have you enter the high and low numbers.</p>
+                    To make it more interesting, I'll let you enter the number.</p>
 
-                    <p>Please click below to open the alert pop-up, then enter a number in the text box and click enter.</p>
+                    <p>Please enter a number greater than 1 in the text bow below. Then, click the submit button to generate the random number.</p>
 
                             <label for="number">Enter your number here:</label>
-                            <input type="text" id="guestinput" onclick="this.value = '' "/>
+                            <input type="text" id="guestinput" autocomplete="off" onclick="this.value = '' "/>
                             <button onclick=question()>Submit</button>
 
                     <!-- <p>Please enter a number higher than your first number in the text box below and click enter.</p> -->
@@ -57,9 +57,10 @@
 
                     <p>Here's another fun, interactive demonstration of JavaScript functions.</p>
 
-                    <p>Please enter your age in years in the text box below and click enter.</p>
+                    <p>Please enter your age in numerical years in the text box below. Then, select the incrament of time from the dropdown
+                        menu that you'd like your age recalculated into. Once you have both submissions entered, click the Submit button.</p>
                         <label for="number">Enter your age in years here:</label>
-                        <input type="text" id="guestage" onclick="this.value = '' "/></br>
+                        <input type="text" id="guestage" autocomplete="off" onclick="this.value = '' "/></br>
                         <label for="time">Select the measurement of time you want your age recalculated into.</label>
                         <select for="time">
                             <option id="period" value="weeks">Weeks</option>

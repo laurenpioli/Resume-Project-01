@@ -4,8 +4,6 @@
 
 function question() {
     const inputLow = document.getElementById('guestinput').value
-    
-    // prompt('Please enter any number higher than 1.');
 
     console.log(inputLow);
 
@@ -26,11 +24,10 @@ function question() {
         //  Create a message displaying the random number
         document.querySelector("#randomanswer").innerHTML = `Answer:  ${randomNumber} is a random number from 1 to your number ${low}.`;
     } else {
+        // throw an error if the submission was blank or not a number
         console.log(`Please reload the page and provide a number in numerical format.`);
-        document.querySelector("#randomanswer").innerHTML = `Please reload the page and provide a number in numerical format.`;
+        document.querySelector("#randomanswer").innerHTML = `Error:  Please provide a number in numerical format.`;
     }
-    
-    // Change console logs to document writers
     
 
 }
@@ -50,8 +47,6 @@ const weeksPerYear = 52;
 
 function ageCalc() {
     const inputAge = document.getElementById('guestage').value
-    
-    // prompt('Please enter your age in years.');
 
     console.log(inputAge);
 
@@ -67,20 +62,47 @@ function ageCalc() {
 
     const recalcAge = document.getElementById('period').value
     
-    // prompt("Please enter a period of time you'd like your age recalculated into.")
+    // JAVASCRIPT FEATURE Use a JavaScript function to perform a mathematical operation
     
-    if (recalcAge === 'weeks' ) {
-        let weeksAlive = ( ageYears * weeksPerYear) ;
+    if (ageYears) {
+        let weeksAlive = ( ageYears * weeksPerYear );
         console.log(weeksAlive);
+        //  Create a message displaying the recalculated figure
         document.querySelector("#agecalculation").innerHTML = `Answer:  You have been alive for ${weeksAlive} weeks.`;
-        // const reactionGif = "<img src=''>";
-        // document.querySelector("#gif-reaction").innerHTML = reactionGif;
+        const reactionGif = `
+            <img src="gifs/monkey-puppet.gif">
+            `;
+        document.querySelector("#gif-reaction").innerHTML = reactionGif;
+
+    } else {
+        // throw an error if the submission was blank or not a number
+        console.log(`Please reload the page and provide a number in numerical format.`);
+        document.querySelector("#agecalculation").innerHTML = `Error:  Please provide a number in numerical format.`;
+
+    }
+    
+    
+// Previous work in case I need it
+
+    // (recalcAge === 'weeks') {
+    //     let weeksAlive = ( ageYears * weeksPerYear) ;
+    //     console.log(weeksAlive);
+    //     document.querySelector("#agecalculation").innerHTML = `Answer:  You have been alive for ${weeksAlive} weeks.`;
+    //     const reactionGif = `
+    //         <img src="monkey-puppet.gif">
+    //         `;
+    //     document.querySelector("#gif-reaction").innerHTML = reactionGif;
+
+
 
     // } else if ( recalcAge === 'minutes' ) {
     //     let ageAnswer = ( ageYears * minutesPerHour * hoursPerDay * daysPerWeek * weeksPerYear );
 
-    }
+    // } else {
+    //     console.log(`Please reload the page and provide a number in numerical format.`);
+    //     document.querySelector("#randomanswer").innerHTML = `Please reload the page and provide a number in numerical format.`;
     
+    // }
 
 }
         // JAVASCRIPT FEATURE Use a JavaScript function to perform a mathematical operation
