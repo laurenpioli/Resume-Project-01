@@ -64,7 +64,7 @@ function ageCalc() {
     
     // JAVASCRIPT FEATURE Use a JavaScript function to perform a mathematical operation
     
-    if (ageYears) {
+    if ( ageYears ) {
         let weeksAlive = ( ageYears * weeksPerYear );
         console.log(weeksAlive);
         //  Create a message displaying the recalculated figure
@@ -80,6 +80,8 @@ function ageCalc() {
         document.querySelector("#agecalculation").innerHTML = `Error:  Please provide a number in numerical format.`;
 
     }
+
+}
     
     
 // Previous work in case I need it
@@ -104,7 +106,7 @@ function ageCalc() {
     
     // }
 
-}
+
         // JAVASCRIPT FEATURE Use a JavaScript function to perform a mathematical operation
 
     // if (ageYears) {
