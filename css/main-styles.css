@@ -67,6 +67,14 @@ li {
 }
 
 
+#intrographic {
+    width: 187.5px;
+    height: 192px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /* #book {
     height: 298px;
     width: 208px;

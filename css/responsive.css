@@ -21,6 +21,9 @@
 
 }
 
+
+
+
 .media4 {
     display: flex;
     width: 100%;
@@ -81,6 +84,11 @@
 
     }
 
+    #intrographic {
+        margin-top: 16px;
+
+    }
+
 }
 
 /* ------------- iPad Normal ------------- */
@@ -101,6 +109,12 @@
 
     }
 
+    #intrographic {
+        margin-top: 16px;
+        width: 250px;
+        height: 256px;
+    }
+
 }
 
 
@@ -115,6 +129,12 @@
     .flex-item {
         width: 20%;
         display: inline-block;
+
+    }
+
+    #intrographic {
+        width: 250px;
+        height: 256px;
 
     }
 
