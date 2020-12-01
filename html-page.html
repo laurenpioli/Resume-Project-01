@@ -14,9 +14,9 @@
 <!------- Body ------->
 <body>
 
-    <div class="header-container">
-        <header>
-            <h1 class="main-title item-01">My Journey Learning to Code</h1>
+    <header class="header-container">
+        <h1 id="top" class="main-title item-01">My Journey Learning to Code</h1>
+            <p><a href="#maincontent">Skip to content</a></p>
             <nav class="main-nav">
                 <ul>
                     <li class="flex-item item-02"> <a href="index.html">Home</a></li>
@@ -25,17 +25,45 @@
                     <li class="flex-item item-05"> <a href="github.html">GitHub</a></li>
                 </ul>
             </nav>
-        </header>
-    </div>
+    </header>
 
     <div class="body-container">
-        <div class="content">
+        <main id="maincontent" class="content">
             <h2>HTML</h2> 
             <p>Chocolate bar carrot cake sugar plum toffee oat cake croissant. Jelly-o halvah bonbon
                 sweet candy cookie soufflé. Pudding lemon drops marzipan croissant cupcake. Soufflé
                 tiramisu icing cake soufflé. Apple pie tart gummies oat cake marshmallow marshmallow
                 cupcake pie. Marzipan powder muffin.</p>
-        </div>
+
+            <h3>December 1, 2020:  Div Soup Fix</h3>
+                <p>Today, I worked on making sure my HTML didn't fall into the 'div soup' problem. Div Soup
+                    is when programmers use the div element so much in their code, it makes it difficult
+                    for folks using screen readers to navigate their web page. Divs can be very helpful in
+                    wrapping content while designing web pages. But when used too much, it can make it
+                    difficult for those using screen readers to understand the content and flow of a web
+                    page and potentially stop using it altogether.</br>
+                    Using HTML elements that describe a section of content more precisely makes the verbal
+                    description more clear to those who can't see the content. It's important for programmers
+                    to keep this in mind while designing web pages becuase it helps make the web accessible
+                    and usable to everyone, no matter how they are accessing it.</p>
+                <p>I don't have too much code yet, so it wasn't difficult to make this fix today.</br>
+                    I noticed two locations where I had divs that could be changed to more specific HTML
+                    elements. The first instance I fixed was the div I had surrounding my header. This div was
+                    where I was applying my header style. Using a div here is unnecessary becuase I could
+                    apply that style directly to my header element.</p>
+                <p>The second was a div I was using as the structure to my main page content. As you may have
+                    guessed, this div can be replaced by the main HTML element to make it more clear.</p>
+                <p>An added benefit to fixing div soup in your code is that it makes your code a bit easier
+                    to interpret for anyone reading or collaborating on your web page.</br>
+                    Once you make changes to your code like this, you always want to make sure your CSS
+                    styles aren't affected. Luckily, I style my pages with classes most of the time so I
+                    didn't have to change my CSS code.</p>
+                <img src="images/div-soup-before.PNG" alt="Before picture of code">
+                <img src="images/div-soup-after.PNG" alt="After picture of code">
+
+
+                <p><a href="#top">Top</a></p>
+        </main>
 
 <!------- Footer ------->
         <footer class="footer-container">

@@ -138,6 +138,14 @@
 
     }
 
+    #treehouse,
+    #book,
+    #class {
+        width:  480px;
+        height:  150px;
+
+    }
+
 }
 
 
